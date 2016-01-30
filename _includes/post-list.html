@@ -1,0 +1,16 @@
+<section id="post-list">
+	<div class="post-container">
+		<p class="subtitle" id="author">- Our Posts -</p>
+ 		 {% for list in site.posts %}
+	      <div class="post-unit">
+	        <a href="{{ list.url | prepend: site.baseurl }}" class="post-box">
+	         	<figure><img src="{{list.image | prepend: site.baseurl}}" alt="{{list.categories}}"></figure>
+	            <span class="posts-title">
+	            	<p class="p-title">{{list.title}}</p>
+	            	<p>{{list.date | date_to_string}}</p>
+	            </span>
+	        </a>
+	      </div>
+	      {% endfor %}
+	</div>
+</section>

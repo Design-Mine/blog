@@ -1,0 +1,36 @@
+#-------------------------------
+# General Site Settings
+
+title: Design Mine Blog
+email: info@designmine.co.uk
+description: > # this means to ignore newlines until "baseurl:"
+  Design Mine Blog, Your design, branding and marketing partner.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://designmyidea.co.uk" # the base hostname & protocol for your site
+
+#-------------------------------
+# Header Settings
+
+menu:
+- {name: 'Home', link: 'http://www.designmyidea.co.uk'}
+- {name: 'Who', link: 'http://www.designmyidea.co.uk/who'}
+- {name: 'What', link: 'http://www.designmyidea.co.uk/what'}
+- {name: 'Why', link: '/'}
+- {name: 'Where', link: 'http://www.designmyidea.co.uk/where'}
+
+#-------------------------------
+# About Settings
+
+bloggers-main: "/img/about/Hannibal-icon.png"
+blogger-second: "/img/about/Face-icon.png"
+blogger-third: "/img/about/triple-a-icon.png"
+
+
+skills:
+- {name: Communication, value: '9'}
+- {name: Writing Ability, value: '8'}
+- {name: Empathy, value: '7'}
+- {name: Originality, value: '10'}
+- {name: Relevancy, value: '6'}
+- {name: Sanity, value: '3'}
+

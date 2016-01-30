@@ -1,0 +1,70 @@
+/**
+ * Site header
+ */
+.site-header
+	background-color:	#e7e7e7
+	font-family: Geneva, sans-serif
+	font-weight: bold
+	position: fixed
+	z-index: 9999
+	width: 100%
+	
+	.site-title
+		height: 40px
+		padding-top: 8px
+	
+	#nav
+		margin: 0
+
+		.fixed-top-menu 
+			list-style: none
+			display: inline-block
+			width: 80px
+			text-align: center		
+				
+			a
+				color: $grey-color-dark
+				padding: 20px 15px
+
+				&:hover
+					color: white
+					text-decoration: none
+					background-color: $red
+								
+			.active
+				color: white
+				text-decoration: none
+				background-color: $orange
+				
+				&:hover
+					background-color: $orange
+
+	.side-menu
+		background-image: linear-gradient(#24282b, #000)
+		border-left: 1px solid #000
+		position: fixed
+		top: 0
+		right: -271px
+		width: 250px
+		height: 100%
+		padding: 10px
+		list-style: none
+		+transition()
+		font:
+			size: 20px
+			family: Roboto
+			weight: 300
+
+		li
+			border-bottom: 1px solid rgba(255,255,255,0.1)
+			text-align: center
+			padding: 20px 0px
+
+			a
+				text-decoration: none
+				color: #fff 
+			
+				&:hover
+					color: $gold 
+
+
